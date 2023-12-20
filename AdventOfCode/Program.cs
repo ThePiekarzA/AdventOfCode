@@ -6,8 +6,12 @@
 //var answer = NotQuiteLisp.RunPartOne(); // 138
 //var answer = NotQuiteLisp.RunPartTwo(); // 1771
 
-using AdventOfCode._02;
+//using AdventOfCode._02;
 //var answer = CubeConundrum.RunPartOne(); // 2528
-var answer = CubeConundrum.RunPartTwo(); // 67363
+//var answer = CubeConundrum.RunPartTwo(); // 67363
+
+using AdventOfCode._03;
+//var answer = GearRatios.RunPartOne(); // 532331
+var answer = GearRatios.RunPartTwo(); // 82301120
 
 Console.WriteLine(answer);
