@@ -10,8 +10,12 @@
 //var answer = CubeConundrum.RunPartOne(); // 2528
 //var answer = CubeConundrum.RunPartTwo(); // 67363
 
-using AdventOfCode._03;
+//using AdventOfCode._03;
 //var answer = GearRatios.RunPartOne(); // 532331
-var answer = GearRatios.RunPartTwo(); // 82301120
+//var answer = GearRatios.RunPartTwo(); // 82301120
+
+using AdventOfCode._04;
+//var answer = Scratchcards.RunPartOne(); // 26426
+var answer = Scratchcards.RunPartTwo(); // 6227972
 
 Console.WriteLine(answer);
