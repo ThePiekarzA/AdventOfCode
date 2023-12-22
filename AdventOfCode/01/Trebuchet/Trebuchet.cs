@@ -64,11 +64,11 @@ public static class Trebuchet
 
     public static int RecoverCalibrationValue2(string obfuscatedValue)
     {
-        var firstDigitMatches = WordsRegex.Matches(obfuscatedValue);
-        var firstDigit = ConvertCalibrationValueDigit(firstDigitMatches[0].Value);
+        var firstDigitMatch = WordsRegex.Match(obfuscatedValue);
+        var firstDigit = ConvertCalibrationValueDigit(firstDigitMatch.Value);
 
-        var secondDigitMatches = WordsRegexInverse.Matches(obfuscatedValue);
-        var secondDigit = ConvertCalibrationValueDigit(secondDigitMatches[0].Value);
+        var secondDigitMatch = WordsRegexInverse.Match(obfuscatedValue);
+        var secondDigit = ConvertCalibrationValueDigit(secondDigitMatch.Value);
 
         var calibrationValue = firstDigit * 10 + secondDigit;
         return calibrationValue;
