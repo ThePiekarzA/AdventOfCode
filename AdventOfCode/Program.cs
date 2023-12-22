@@ -18,9 +18,13 @@
 //var answer = Scratchcards.RunPartOne(); // 26426
 //var answer = Scratchcards.RunPartTwo(); // 6227972
 
-using AdventOfCode._05;
+//using AdventOfCode._05;
 //var answer = IfYouGiveASeedAFertilizer.RunPartOne(); // 340994526
-var answer = IfYouGiveASeedAFertilizer.RunPartTwo(); // 52210644
+//var answer = IfYouGiveASeedAFertilizer.RunPartTwo(); // 52210644
+
+using AdventOfCode._06;
+//var answer = WaitForIt.RunPartOne(); // 2756160
+var answer = WaitForIt.RunPartTwo();
 
 
-Console.WriteLine(answer);
+Console.WriteLine($"The answer is: {answer}");
