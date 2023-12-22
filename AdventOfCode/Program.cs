@@ -14,8 +14,13 @@
 //var answer = GearRatios.RunPartOne(); // 532331
 //var answer = GearRatios.RunPartTwo(); // 82301120
 
-using AdventOfCode._04;
+//using AdventOfCode._04;
 //var answer = Scratchcards.RunPartOne(); // 26426
-var answer = Scratchcards.RunPartTwo(); // 6227972
+//var answer = Scratchcards.RunPartTwo(); // 6227972
+
+using AdventOfCode._05;
+//var answer = IfYouGiveASeedAFertilizer.RunPartOne(); // 340994526
+var answer = IfYouGiveASeedAFertilizer.RunPartTwo(); // 52210644
+
 
 Console.WriteLine(answer);
