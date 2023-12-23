@@ -26,8 +26,14 @@
 //var answer = WaitForIt.RunPartOne(); // 2756160
 //var answer = WaitForIt.RunPartTwo(); // 34788142
 
-using AdventOfCode._07;
+//using AdventOfCode._07;
 //var answer = CamelCards.RunPartOne(); // 253910319
-var answer = CamelCards.RunPartTwo(); // 254083736
+//var answer = CamelCards.RunPartTwo(); // 254083736
 
-Console.WriteLine($"The answer is: {answer}");
+using AdventOfCode._08;
+//var answer = HauntedWasteland.RunPartOne(); // 22411
+var answer = HauntedWasteland.RunPartTwo();
+
+
+Console.WriteLine($"\nThe answer is: {answer}");
+Console.ReadKey();
