@@ -408,6 +408,9 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
+# Folder for separate runs
+RunInTheMeantime/
+
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
