@@ -30,10 +30,13 @@
 //var answer = CamelCards.RunPartOne(); // 253910319
 //var answer = CamelCards.RunPartTwo(); // 254083736
 
-using AdventOfCode._08;
+//using AdventOfCode._08;
 //var answer = HauntedWasteland.RunPartOne(); // 22411
-var answer = HauntedWasteland.RunPartTwo();
+//var answer = HauntedWasteland.RunPartTwo(); // TODO: apparently not working - find issue :(
+
+using AdventOfCode._09;
+//var answer = MirageMaintenance.RunPartOne(); // 1731106378
+var answer = MirageMaintenance.RunPartTwo(); // 1087
 
 
 Console.WriteLine($"\nThe answer is: {answer}");
-Console.ReadKey();
