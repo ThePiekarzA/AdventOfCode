@@ -34,9 +34,12 @@
 //var answer = HauntedWasteland.RunPartOne(); // 22411
 //var answer = HauntedWasteland.RunPartTwo(); // TODO: apparently not working - find issue :(
 
-using AdventOfCode._09;
+//using AdventOfCode._09;
 //var answer = MirageMaintenance.RunPartOne(); // 1731106378
-var answer = MirageMaintenance.RunPartTwo(); // 1087
+//var answer = MirageMaintenance.RunPartTwo(); // 1087
 
+using AdventOfCode._10;
+//var answer = PipeMaze.RunPartOne(); // 6864
+var answer = PipeMaze.RunPartTwo(); // 349
 
 Console.WriteLine($"\nThe answer is: {answer}");
