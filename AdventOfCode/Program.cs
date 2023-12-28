@@ -38,8 +38,12 @@
 //var answer = MirageMaintenance.RunPartOne(); // 1731106378
 //var answer = MirageMaintenance.RunPartTwo(); // 1087
 
-using AdventOfCode._10;
+//using AdventOfCode._10;
 //var answer = PipeMaze.RunPartOne(); // 6864
-var answer = PipeMaze.RunPartTwo(); // 349
+//var answer = PipeMaze.RunPartTwo(); // 349
+
+using AdventOfCode._11;
+//var answer = CosmicExpansion.RunPartOne(); // 9509330
+var answer = CosmicExpansion.RunPartTwo(); // 635832237682
 
 Console.WriteLine($"\nThe answer is: {answer}");
