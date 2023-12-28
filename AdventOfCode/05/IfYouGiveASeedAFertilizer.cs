@@ -10,7 +10,7 @@ public static class IfYouGiveASeedAFertilizer
 
     public static ulong RunPartTwo()
     {
-        return FindNearestLocationForSeedRange(InputFilePath);
+        return FindNearestLocationForSeedRange(InputFilePath); // TODO: Merge map into one to speed up process
     }
 
     public static ulong FindNearestLocationForSeed(string inputFilePath)
