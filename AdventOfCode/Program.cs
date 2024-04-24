@@ -30,9 +30,9 @@
 //var answer = CamelCards.RunPartOne(); // 253910319
 //var answer = CamelCards.RunPartTwo(); // 254083736
 
-//using AdventOfCode._08;
+using AdventOfCode._08;
 //var answer = HauntedWasteland.RunPartOne(); // 22411
-//var answer = HauntedWasteland.RunPartTwo(); // TODO: apparently not working - find issue :(
+var answer = HauntedWasteland.RunPartTwo(); // 11188774513823
 
 //using AdventOfCode._09;
 //var answer = MirageMaintenance.RunPartOne(); // 1731106378
@@ -42,8 +42,9 @@
 //var answer = PipeMaze.RunPartOne(); // 6864
 //var answer = PipeMaze.RunPartTwo(); // 349
 
-using AdventOfCode._11;
+//using AdventOfCode._11;
 //var answer = CosmicExpansion.RunPartOne(); // 9509330
-var answer = CosmicExpansion.RunPartTwo(); // 635832237682
+//var answer = CosmicExpansion.RunPartTwo(); // 635832237682
+
 
 Console.WriteLine($"\nThe answer is: {answer}");
