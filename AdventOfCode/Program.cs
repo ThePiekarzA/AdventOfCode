@@ -30,9 +30,9 @@
 //var answer = CamelCards.RunPartOne(); // 253910319
 //var answer = CamelCards.RunPartTwo(); // 254083736
 
-using AdventOfCode._08;
+//using AdventOfCode._08;
 //var answer = HauntedWasteland.RunPartOne(); // 22411
-var answer = HauntedWasteland.RunPartTwo(); // 11188774513823
+//var answer = HauntedWasteland.RunPartTwo(); // 11188774513823
 
 //using AdventOfCode._09;
 //var answer = MirageMaintenance.RunPartOne(); // 1731106378
@@ -46,5 +46,7 @@ var answer = HauntedWasteland.RunPartTwo(); // 11188774513823
 //var answer = CosmicExpansion.RunPartOne(); // 9509330
 //var answer = CosmicExpansion.RunPartTwo(); // 635832237682
 
+using AdventOfCode._12;
+var answer = HotSprings.RunPartOne(); // 7460
 
 Console.WriteLine($"\nThe answer is: {answer}");
