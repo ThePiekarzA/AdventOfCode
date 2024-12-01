@@ -8,43 +8,43 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="01\NotQuiteLisp\input.txt">
+    <None Update="2023\01\NotQuiteLisp\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="01\Trebuchet\input.txt">
+    <None Update="2023\01\Trebuchet\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="02\input.txt">
+    <None Update="2023\02\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="03\input.txt">
+    <None Update="2023\03\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="04\input.txt">
+    <None Update="2023\04\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="05\input.txt">
+    <None Update="2023\05\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="06\input.txt">
+    <None Update="2023\06\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="07\input.txt">
+    <None Update="2023\07\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="08\input.txt">
+    <None Update="2023\08\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="09\input.txt">
+    <None Update="2023\09\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="10\input.txt">
+    <None Update="2023\10\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="11\input.txt">
+    <None Update="2023\11\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="12\input.txt">
+    <None Update="2023\12\input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

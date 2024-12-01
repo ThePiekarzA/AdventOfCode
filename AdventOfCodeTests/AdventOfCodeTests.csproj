@@ -17,66 +17,70 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="01\NotQuiteLispTests\testInput.txt">
+    <None Update="2023\01\NotQuiteLispTests\testInput.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="01\TrebuchetTests\testInput2.txt">
+    <None Update="2023\01\TrebuchetTests\testInput2.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="01\TrebuchetTests\testInput.txt">
+    <None Update="2023\01\TrebuchetTests\testInput.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="02\testInput.txt">
+    <None Update="2023\02\testInput.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="03\testInput.txt">
+    <None Update="2023\03\testInput.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="04\testInput.txt">
+    <None Update="2023\04\testInput.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="05\testInput.txt">
+    <None Update="2023\05\testInput.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="06\testInput.txt">
+    <None Update="2023\06\testInput.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="07\testInput.txt">
+    <None Update="2023\07\testInput.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="08\testInput1.txt">
+    <None Update="2023\08\testInput1.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="08\testInput3.txt">
+    <None Update="2023\08\testInput3.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="08\testInput2.txt">
+    <None Update="2023\08\testInput2.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="09\testInput.txt">
+    <None Update="2023\09\testInput.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="10\testInput5.txt">
+    <None Update="2023\10\testInput5.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="10\testInput4.txt">
+    <None Update="2023\10\testInput4.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="10\testInput3.txt">
+    <None Update="2023\10\testInput3.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="10\testInput2.txt">
+    <None Update="2023\10\testInput2.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="10\testInput1.txt">
+    <None Update="2023\10\testInput1.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="11\testInput.txt">
+    <None Update="2023\11\testInput.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="12\testInput.txt">
+    <None Update="2023\12\testInput.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="2024\" />
   </ItemGroup>
 
 </Project>
