@@ -14,9 +14,31 @@ public static partial class HotSprings
     [GeneratedRegex("[#]+")]
     private static partial Regex DamagedConditionsRegex();
 
+    [GeneratedRegex("[#?]+")]
+    private static partial Regex PossibleDamagedRegex();
+
+    [GeneratedRegex(@"(?<=\.)(#+)(?=(\.|$))")]
+    private static partial Regex CompleteDamagedGroupsRegex();
+
     public static int RunPartOne()
     {
         return SumPossibleArrangements(InputFilePath);
+    }
+
+    //"???.###"new[] { 1, 1, 3 }, 1
+    public static void FasterApproach(string conditions, int[] damagedConditions)
+    {
+        // Sort damaged conditions descending to find largest damaged group
+        Array.Sort(damagedConditions);
+        Array.Reverse(damagedConditions);
+
+        // Find all complete damagex condition groups
+        var completeDamagedGroups = CompleteDamagedGroupsRegex().Matches(conditions);
+
+        // Find all known damaged conditions
+        var damagedGroups = DamagedConditionsRegex().Matches(conditions);
+        
+
     }
 
     public static void UnfoldRecord(string foldedConditionRecord, string foldedConditions, out string unfoldedConditionRecord, out int[] unfoldedConditions)
