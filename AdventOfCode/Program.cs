@@ -1,4 +1,5 @@
-﻿//using AdventOfCode._01.Trebuchet;
+﻿#region 2023
+//using AdventOfCode._01.Trebuchet;
 //var answer = Trebuchet.RunPartOne(); // 55971
 //var answer = Trebuchet.RunPartTwo(); // 54719
 
@@ -46,7 +47,12 @@
 //var answer = CosmicExpansion.RunPartOne(); // 9509330
 //var answer = CosmicExpansion.RunPartTwo(); // 635832237682
 
-using AdventOfCode._12;
-var answer = HotSprings.RunPartOne(); // 7460
+//using AdventOfCode._12;
+//var answer = HotSprings.RunPartOne(); // 7460
+#endregion
+
+using AdventOfCode._2024._01;
+//var answer = HistorianHysteria.RunPartOne(); // 2375403
+var answer = HistorianHysteria.RunPartTwo(); // 23082277
 
 Console.WriteLine($"\nThe answer is: {answer}");
