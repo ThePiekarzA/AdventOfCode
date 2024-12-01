@@ -1,7 +1,7 @@
-﻿using AdventOfCode._01.NotQuiteLisp;
+﻿using AdventOfCode._2023._01.NotQuiteLisp;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AdventOfCodeTests._01.NotQuiteLispTests;
+namespace AdventOfCodeTests._2023._01.NotQuiteLispTests;
 
 [TestClass]
 public class NotQuiteLispTests
@@ -41,7 +41,7 @@ public class NotQuiteLispTests
     public void FindFloorBasedOnFileTest()
     {
         // Act
-        var targetFloor = NotQuiteLisp.FindFloorBasedOnFile(@"01\NotQuiteLispTests\testInput.txt");
+        var targetFloor = NotQuiteLisp.FindFloorBasedOnFile(@"2023\01\NotQuiteLispTests\testInput.txt");
 
         // Assert
         Assert.AreEqual(1, targetFloor);
@@ -51,7 +51,7 @@ public class NotQuiteLispTests
     public void CountMovesToReachFloorBasedOnFileTest()
     {
         // Act
-        var movesCount = NotQuiteLisp.CountMovesToReachFloorBasedOnFile(@"01\NotQuiteLispTests\testInput.txt", 3);
+        var movesCount = NotQuiteLisp.CountMovesToReachFloorBasedOnFile(@"2023\01\NotQuiteLispTests\testInput.txt", 3);
 
         // Assert
         Assert.AreEqual(11, movesCount);

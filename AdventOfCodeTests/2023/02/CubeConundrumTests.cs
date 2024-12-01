@@ -1,7 +1,7 @@
-﻿using AdventOfCode._02;
+﻿using AdventOfCode._2023._02;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AdventOfCodeTests._02;
+namespace AdventOfCodeTests._2023._02;
 
 [TestClass]
 public class CubeConundrumTests
@@ -37,7 +37,7 @@ public class CubeConundrumTests
         var blueCount = 14;
 
         // Act
-        var result = CubeConundrum.SumPossibleGameIds(@"02\testInput.txt", redCount, greenCount, blueCount);
+        var result = CubeConundrum.SumPossibleGameIds(@"2023\02\testInput.txt", redCount, greenCount, blueCount);
 
         // Assert
         Assert.AreEqual(8, result);
@@ -66,7 +66,7 @@ public class CubeConundrumTests
     public void GetMinimalSetPowerSumTest()
     {
         // Act
-        var result = CubeConundrum.GetMinimalSetPowerSum(@"02\testInput.txt");
+        var result = CubeConundrum.GetMinimalSetPowerSum(@"2023\02\testInput.txt");
 
         // Assert
         Assert.AreEqual(2286, result);

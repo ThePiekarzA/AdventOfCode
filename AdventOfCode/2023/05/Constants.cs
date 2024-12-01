@@ -1,4 +1,4 @@
-﻿namespace AdventOfCode._05;
+﻿namespace AdventOfCode._2023._05;
 
 public class Constants
 {

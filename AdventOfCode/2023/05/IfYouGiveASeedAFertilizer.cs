@@ -1,8 +1,8 @@
-﻿namespace AdventOfCode._05;
+﻿namespace AdventOfCode._2023._05;
 
 public static class IfYouGiveASeedAFertilizer
 {
-    private const string InputFilePath = @"05\input.txt";
+    private const string InputFilePath = @"2023\05\input.txt";
     public static ulong RunPartOne()
     {
         return FindNearestLocationForSeed(InputFilePath);

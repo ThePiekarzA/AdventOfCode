@@ -1,8 +1,8 @@
-﻿namespace AdventOfCode._09;
+﻿namespace AdventOfCode._2023._09;
 
 public static class MirageMaintenance
 {
-    private const string InputFilePath = @"09\input.txt";
+    private const string InputFilePath = @"2023\09\input.txt";
 
     public static int RunPartOne()
     {

@@ -1,12 +1,12 @@
-﻿using AdventOfCode._09;
+﻿using AdventOfCode._2023._09;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AdventOfCodeTests._09;
+namespace AdventOfCodeTests._2023._09;
 
 [TestClass]
 public class MirageMaintenanceTests
 {
-    private const string InputFilePath = @"09\testInput.txt";
+    private const string InputFilePath = @"2023\09\testInput.txt";
 
     [DataTestMethod]
     [DataRow("0 3 6 9 12 15", 18)]

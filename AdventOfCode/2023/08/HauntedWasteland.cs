@@ -1,12 +1,12 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace AdventOfCode._08;
+namespace AdventOfCode._2023._08;
 
 public static class HauntedWasteland
 {
     private static readonly Regex NodeRegex = new(@"\w{3}");
 
-    private const string InputFilePath = @"08\input.txt";
+    private const string InputFilePath = @"2023\08\input.txt";
 
     public static int RunPartOne()
     {

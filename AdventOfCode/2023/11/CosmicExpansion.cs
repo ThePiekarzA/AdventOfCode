@@ -1,8 +1,8 @@
-﻿namespace AdventOfCode._11;
+﻿namespace AdventOfCode._2023._11;
 
 public static class CosmicExpansion
 {
-    private const string InputFilePath = @"11\input.txt";
+    private const string InputFilePath = @"2023\11\input.txt";
 
     public static ulong RunPartOne()
     {

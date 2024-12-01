@@ -1,12 +1,12 @@
-﻿using AdventOfCode._05;
+﻿using AdventOfCode._2023._05;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AdventOfCodeTests._05;
+namespace AdventOfCodeTests._2023._05;
 
 [TestClass]
 public class IfYouGiveASeedAFertilizerTests
 {
-    private const string InputFilePath = @"05\testInput.txt";
+    private const string InputFilePath = @"2023\05\testInput.txt";
 
     [TestMethod]
     public void FindNearestLocationForSeed()

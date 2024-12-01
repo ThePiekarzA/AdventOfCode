@@ -1,8 +1,8 @@
-﻿namespace AdventOfCode._07;
+﻿namespace AdventOfCode._2023._07;
 
 public static class CamelCards
 {
-    private const string InputFilePath = @"07\input.txt";
+    private const string InputFilePath = @"2023\07\input.txt";
 
     public static int RunPartOne()
     {

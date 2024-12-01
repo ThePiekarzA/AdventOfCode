@@ -1,12 +1,12 @@
-﻿using AdventOfCode._12;
+﻿using AdventOfCode._2023._12;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AdventOfCodeTests._12;
+namespace AdventOfCodeTests._2023._12;
 
 [TestClass]
 public class HotSpringsTests
 {
-    private const string InputFilePath = @"12\testInput.txt";
+    private const string InputFilePath = @"2023\12\testInput.txt";
 
     [DataTestMethod]
     [DataRow("???.###", new[] { 1, 1, 3 }, 1)]

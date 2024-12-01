@@ -1,7 +1,7 @@
-﻿using AdventOfCode._07;
+﻿using AdventOfCode._2023._07;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AdventOfCodeTests._07;
+namespace AdventOfCodeTests._2023._07;
 
 [TestClass]
 public class HandTests

@@ -1,8 +1,8 @@
-﻿namespace AdventOfCode._04;
+﻿namespace AdventOfCode._2023._04;
 
 public static class Scratchcards
 {
-    private const string InputFilePath = @"04\input.txt";
+    private const string InputFilePath = @"2023\04\input.txt";
 
     public static int RunPartOne()
     {

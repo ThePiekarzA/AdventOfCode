@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace AdventOfCode._10;
+namespace AdventOfCode._2023._10;
 
 public class Position
 {
@@ -23,7 +23,7 @@ public enum Direction
 
 public static class PipeMaze
 {
-    private const string InputFilePath = @"10\input.txt";
+    private const string InputFilePath = @"2023\10\input.txt";
 
     private static readonly char[] PipeSegments = new[]
     {

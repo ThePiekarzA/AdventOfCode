@@ -1,12 +1,12 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace AdventOfCode._03;
+namespace AdventOfCode._2023._03;
 public static class GearRatios
 {
     private static readonly Regex PartNumberRegex = new(@"\d+|[^.]");
     private const char Gear = '*';
 
-    private const string InputFilePath = @"03\input.txt";
+    private const string InputFilePath = @"2023\03\input.txt";
 
     public static int RunPartOne()
     {

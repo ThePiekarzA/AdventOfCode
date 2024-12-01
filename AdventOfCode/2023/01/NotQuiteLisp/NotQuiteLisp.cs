@@ -1,11 +1,11 @@
-﻿namespace AdventOfCode._01.NotQuiteLisp;
+﻿namespace AdventOfCode._2023._01.NotQuiteLisp;
 
 public static class NotQuiteLisp
 {
     private const char FloorUp = '(';
     private const char FloorDown = ')';
 
-    private const string InputFilePath = @"01\NotQuiteLisp\input.txt";
+    private const string InputFilePath = @"2023\01\NotQuiteLisp\input.txt";
 
     public static int RunPartOne()
     {

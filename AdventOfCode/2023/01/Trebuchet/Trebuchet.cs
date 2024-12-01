@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace AdventOfCode._01.Trebuchet;
+namespace AdventOfCode._2023._01.Trebuchet;
 public static class Trebuchet
 {
     private static readonly Regex DigitsRegex = new(@"\d");
@@ -20,7 +20,7 @@ public static class Trebuchet
         { "nine", 9 }
     };
 
-    private const string InputFilePath = @"01\Trebuchet\input.txt";
+    private const string InputFilePath = @"2023\01\Trebuchet\input.txt";
 
     public static int RunPartOne()
     {

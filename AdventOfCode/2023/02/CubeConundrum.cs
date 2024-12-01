@@ -1,8 +1,8 @@
-﻿namespace AdventOfCode._02;
+﻿namespace AdventOfCode._2023._02;
 
 public static class CubeConundrum
 {
-    private const string InputFilePath = @"02\input.txt";
+    private const string InputFilePath = @"2023\02\input.txt";
 
     public static int RunPartOne()
     {

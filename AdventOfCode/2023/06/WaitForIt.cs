@@ -1,12 +1,12 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace AdventOfCode._06;
+namespace AdventOfCode._2023._06;
 
 public static class WaitForIt
 {
     private static readonly Regex NumberRegex = new(@"\d+");
 
-    private const string InputFileName = @"06\input.txt";
+    private const string InputFileName = @"2023\06\input.txt";
 
     public static ulong RunPartOne()
     {

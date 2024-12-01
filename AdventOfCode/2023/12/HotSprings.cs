@@ -2,11 +2,11 @@
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace AdventOfCode._12;
+namespace AdventOfCode._2023._12;
 
 public static partial class HotSprings
 {
-    private const string InputFilePath = @"12\input.txt";
+    private const string InputFilePath = @"2023\12\input.txt";
 
     [GeneratedRegex("[?]")]
     private static partial Regex UnknownConditionsRegex();

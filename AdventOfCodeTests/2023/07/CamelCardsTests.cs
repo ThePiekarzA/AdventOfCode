@@ -1,12 +1,12 @@
-﻿using AdventOfCode._07;
+﻿using AdventOfCode._2023._07;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AdventOfCodeTests._07;
+namespace AdventOfCodeTests._2023._07;
 
 [TestClass]
 public class CamelCardsTests
 {
-    private const string InputFileName = @"07\testInput.txt";
+    private const string InputFileName = @"2023\07\testInput.txt";
 
     [TestMethod]
     public void GetTotalWinningsTests()

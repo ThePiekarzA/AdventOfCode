@@ -1,7 +1,7 @@
-﻿using AdventOfCode._01.Trebuchet;
+﻿using AdventOfCode._2023._01.Trebuchet;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AdventOfCodeTests._01.TrebuchetTests;
+namespace AdventOfCodeTests._2023._01.TrebuchetTests;
 
 [TestClass]
 public class TrebuchetTests
@@ -42,7 +42,7 @@ public class TrebuchetTests
     public void SumCalibrationValuesTest()
     {
         // Act
-        var calibrationValuesSum = Trebuchet.SumCalibrationValues(@"01\TrebuchetTests\testInput.txt");
+        var calibrationValuesSum = Trebuchet.SumCalibrationValues(@"2023\01\TrebuchetTests\testInput.txt");
 
         // Assert
         Assert.AreEqual(142, calibrationValuesSum);
@@ -52,7 +52,7 @@ public class TrebuchetTests
     public void SumCalibrationValues2Test()
     {
         // Act
-        var calibrationValuesSum = Trebuchet.SumCalibrationValues(@"01\TrebuchetTests\testInput2.txt", true);
+        var calibrationValuesSum = Trebuchet.SumCalibrationValues(@"2023\01\TrebuchetTests\testInput2.txt", true);
 
         // Assert
         Assert.AreEqual(281, calibrationValuesSum);

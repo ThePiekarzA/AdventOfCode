@@ -1,12 +1,12 @@
-﻿using AdventOfCode._11;
+﻿using AdventOfCode._2023._11;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AdventOfCodeTests._11;
+namespace AdventOfCodeTests._2023._11;
 
 [TestClass]
 public class CosmicExpansionTests
 {
-    private const string InputFilePath = @"11\testInput.txt";
+    private const string InputFilePath = @"2023\11\testInput.txt";
 
     [DataTestMethod]
     [DataRow(2, 374)]

@@ -1,12 +1,12 @@
-﻿using AdventOfCode._04;
+﻿using AdventOfCode._2023._04;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AdventOfCodeTests._04;
+namespace AdventOfCodeTests._2023._04;
 
 [TestClass]
 public class ScratchcardsTests
 {
-    private const string TestFilePath = @"04\testInput.txt";
+    private const string TestFilePath = @"2023\04\testInput.txt";
 
     [DataTestMethod]
     [DataRow("Card 1: 41 48 83 86 17 | 83 86  6 31 17  9 48 53", 8)]

@@ -1,4 +1,4 @@
-﻿namespace AdventOfCode._11;
+﻿namespace AdventOfCode._2023._11;
 
 public class Galaxy
 {

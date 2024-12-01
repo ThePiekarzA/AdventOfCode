@@ -1,4 +1,4 @@
-﻿namespace AdventOfCode._06;
+﻿namespace AdventOfCode._2023._06;
 
 public class Race
 {

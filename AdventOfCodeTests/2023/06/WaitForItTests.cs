@@ -1,12 +1,12 @@
-﻿using AdventOfCode._06;
+﻿using AdventOfCode._2023._06;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AdventOfCodeTests._06;
+namespace AdventOfCodeTests._2023._06;
 
 [TestClass]
 public class WaitForItTests
 {
-    private const string InputFileName = @"06\testInput.txt";
+    private const string InputFileName = @"2023\06\testInput.txt";
     
     [DataTestMethod]
     [DynamicData(nameof(TestData))]

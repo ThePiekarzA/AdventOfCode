@@ -1,4 +1,4 @@
-﻿namespace AdventOfCode._07;
+﻿namespace AdventOfCode._2023._07;
 
 public enum HandType
 {
