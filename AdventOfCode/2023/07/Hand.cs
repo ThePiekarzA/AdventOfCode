@@ -50,12 +50,12 @@ public class Hand : IComparable<Hand>
 
     public virtual int CompareTo(Hand? other)
     {
-        if (Type > other?.Type)
+        if (Type > other.Type)
         {
             return 1;
         }
 
-        if (Type < other?.Type)
+        if (Type < other.Type)
         {
             return -1;
         }
@@ -88,7 +88,7 @@ public class Hand : IComparable<Hand>
         return description;
     }
 
-    protected HandType GetHandType(string hand)
+    protected virtual HandType GetHandType(string hand)
     {
         var distinctCards = hand.Distinct().ToArray();
         var cardCounts = distinctCards.Select(dc => hand.Count(hc => hc == dc)).ToArray();

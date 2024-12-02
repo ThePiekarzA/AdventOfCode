@@ -1,2 +1,2 @@
-﻿Input was removed due to the copyright.
-Paste here the test input from: https://adventofcode.com/2023/day/6
+﻿Time:      7  15   30
+Distance:  9  40  200

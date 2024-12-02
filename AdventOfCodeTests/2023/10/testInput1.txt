@@ -1,2 +1,5 @@
-Input was removed due to the copyright.
-Paste here the first test input from: https://adventofcode.com/2023/day/10
+.....
+.S-7.
+.|.|.
+.L-J.
+.....
