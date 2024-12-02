@@ -180,7 +180,7 @@ public static class PipeMaze
             segment = markedMaze[currentPosition.Row, currentPosition.Column];
         }
 
-        PrintMaze(markedMaze);
+        //PrintMaze(markedMaze);
 
         return CalculateLoopAreaInternal(markedMaze, leftTurns, rightTurns);
     }

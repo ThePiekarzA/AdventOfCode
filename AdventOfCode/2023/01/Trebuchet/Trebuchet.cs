@@ -36,7 +36,6 @@ public static class Trebuchet
 
     public static int SumCalibrationValues(string inputFilePath, bool matchWords = false)
     {
-        using var outputFile = new StreamWriter(@"01\Trebuchet\output.txt");
         var lines = File.ReadLines(inputFilePath);
 
         var linesCount = 0;
@@ -46,7 +45,6 @@ public static class Trebuchet
             var calibrationValue = matchWords ? RecoverCalibrationValue2(line) : RecoverCalibrationValue(line);
             calibrationValuesSum += calibrationValue;
 
-            outputFile.WriteLine($"{calibrationValue}\t{line}");
             linesCount++;
         }
 
