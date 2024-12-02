@@ -51,8 +51,13 @@
 //var answer = HotSprings.RunPartOne(); // 7460
 #endregion
 
-using AdventOfCode._2024._01;
+//using AdventOfCode._2024._01;
 //var answer = HistorianHysteria.RunPartOne(); // 2375403
-var answer = HistorianHysteria.RunPartTwo(); // 23082277
+//var answer = HistorianHysteria.RunPartTwo(); // 23082277
+
+using AdventOfCode._2024._02;
+
+//var answer = RedNosedReports.RunPartOne(); // 631
+var answer = RedNosedReports.RunPartTwo(); // 665
 
 Console.WriteLine($"\nThe answer is: {answer}");
