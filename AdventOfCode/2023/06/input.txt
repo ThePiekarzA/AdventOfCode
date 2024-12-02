@@ -1,2 +1,2 @@
-﻿Time:        48     93     85     95
-Distance:   296   1928   1236   1391
+﻿Input was removed due to the copyright.
+Paste here the input from: https://adventofcode.com/2023/day/6/input

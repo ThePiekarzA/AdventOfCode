@@ -1,9 +1,2 @@
-RL
-
-AAA = (BBB, CCC)
-BBB = (DDD, EEE)
-CCC = (ZZZ, GGG)
-DDD = (DDD, DDD)
-EEE = (EEE, EEE)
-GGG = (GGG, GGG)
-ZZZ = (ZZZ, ZZZ)
+Input was removed due to the copyright.
+Paste here the first test input from: https://adventofcode.com/2023/day/2

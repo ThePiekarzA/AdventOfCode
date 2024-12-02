@@ -1,9 +1,2 @@
-...........
-.S-------7.
-.|F-----7|.
-.||.....||.
-.||.....||.
-.|L-7.F-J|.
-.|..|.|..|.
-.L--J.L--J.
-...........
+Input was removed due to the copyright.
+Paste here the third test input from: https://adventofcode.com/2023/day/10

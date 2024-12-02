@@ -1,5 +1,2 @@
-LLR
-
-AAA = (BBB, BBB)
-BBB = (AAA, ZZZ)
-ZZZ = (ZZZ, ZZZ)
+Input was removed due to the copyright.
+Paste here the second test input from: https://adventofcode.com/2023/day/2
