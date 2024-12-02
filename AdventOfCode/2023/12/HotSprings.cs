@@ -6,6 +6,8 @@ namespace AdventOfCode._2023._12;
 
 public static partial class HotSprings
 {
+    // ﻿Input was removed due to the copyright.
+    // Create input.txt file and fill it with data from: https://adventofcode.com/2023/day/12/input
     private const string InputFilePath = @"2023\12\input.txt";
 
     [GeneratedRegex("[?]")]

@@ -5,6 +5,7 @@ public static class NotQuiteLisp
     private const char FloorUp = '(';
     private const char FloorDown = ')';
 
+    // ﻿Input was removed due to the copyright.
     private const string InputFilePath = @"2023\01\NotQuiteLisp\input.txt";
 
     public static int RunPartOne()

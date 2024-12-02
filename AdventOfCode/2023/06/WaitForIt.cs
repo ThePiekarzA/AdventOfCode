@@ -6,6 +6,8 @@ public static class WaitForIt
 {
     private static readonly Regex NumberRegex = new(@"\d+");
 
+    // ﻿Input was removed due to the copyright.
+    // Create input.txt file and fill it with data from: https://adventofcode.com/2023/day/6/input
     private const string InputFileName = @"2023\06\input.txt";
 
     public static ulong RunPartOne()

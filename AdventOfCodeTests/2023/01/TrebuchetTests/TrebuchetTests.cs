@@ -42,6 +42,8 @@ public class TrebuchetTests
     public void SumCalibrationValuesTest()
     {
         // Act
+        // ﻿Input was removed due to the copyright.
+        // Paste here the first test input from: https://adventofcode.com/2023/day/1
         var calibrationValuesSum = Trebuchet.SumCalibrationValues(@"2023\01\TrebuchetTests\testInput.txt");
 
         // Assert
@@ -52,6 +54,8 @@ public class TrebuchetTests
     public void SumCalibrationValues2Test()
     {
         // Act
+        // ﻿Input was removed due to the copyright.
+        // Paste here the second test input from: https://adventofcode.com/2023/day/1
         var calibrationValuesSum = Trebuchet.SumCalibrationValues(@"2023\01\TrebuchetTests\testInput2.txt", true);
 
         // Assert

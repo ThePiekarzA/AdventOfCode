@@ -6,6 +6,9 @@ namespace AdventOfCodeTests._2023._01.NotQuiteLispTests;
 [TestClass]
 public class NotQuiteLispTests
 {
+    // ﻿Input was removed due to the copyright.
+    private const string TestInputFilePath = @"2023\01\NotQuiteLispTests\testInput.txt";
+
     [DataTestMethod]
     [DataRow("()()", 0)]
     [DataRow("(())", 0)]
@@ -41,7 +44,7 @@ public class NotQuiteLispTests
     public void FindFloorBasedOnFileTest()
     {
         // Act
-        var targetFloor = NotQuiteLisp.FindFloorBasedOnFile(@"2023\01\NotQuiteLispTests\testInput.txt");
+        var targetFloor = NotQuiteLisp.FindFloorBasedOnFile(TestInputFilePath);
 
         // Assert
         Assert.AreEqual(1, targetFloor);
@@ -51,7 +54,7 @@ public class NotQuiteLispTests
     public void CountMovesToReachFloorBasedOnFileTest()
     {
         // Act
-        var movesCount = NotQuiteLisp.CountMovesToReachFloorBasedOnFile(@"2023\01\NotQuiteLispTests\testInput.txt", 3);
+        var movesCount = NotQuiteLisp.CountMovesToReachFloorBasedOnFile(TestInputFilePath, 3);
 
         // Assert
         Assert.AreEqual(11, movesCount);

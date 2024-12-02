@@ -2,6 +2,8 @@
 
 public class HistorianHysteria
 {
+    // ﻿Input was removed due to the copyright.
+    // Create input.txt file and fill it with data from: https://adventofcode.com/2024/day/1/input
     private const string InputFilePath = @"2024\01\input.txt";
 
     public static int RunPartOne()

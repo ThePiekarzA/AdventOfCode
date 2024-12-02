@@ -6,6 +6,8 @@ namespace AdventOfCodeTests._2023._10;
 [TestClass]
 public class PipeMazeTests
 {
+    // ﻿Input was removed due to the copyright.
+    // Create testInput1.txt and testInput2.txt files and fill them with first and second test data from: https://adventofcode.com/2023/day/10
     [DataTestMethod]
     [DataRow(@"2023\10\testInput1.txt", 4)]
     [DataRow(@"2023\10\testInput2.txt", 8)]
@@ -18,6 +20,8 @@ public class PipeMazeTests
         Assert.AreEqual(expectedDistance, distance);
     }
 
+    // ﻿Input was removed due to the copyright.
+    // Create testInputX.txt files and fill them with test data from: https://adventofcode.com/2023/day/10
     [DataTestMethod]
     [DataRow(@"2023\10\testInput1.txt", 1)]
     [DataRow(@"2023\10\testInput2.txt", 1)]

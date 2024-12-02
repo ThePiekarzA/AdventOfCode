@@ -20,6 +20,8 @@ public static class Trebuchet
         { "nine", 9 }
     };
 
+    // ﻿Input was removed due to the copyright.
+    // Create input.txt file and fill it with data from: https://adventofcode.com/2023/day/1/input
     private const string InputFilePath = @"2023\01\Trebuchet\input.txt";
 
     public static int RunPartOne()

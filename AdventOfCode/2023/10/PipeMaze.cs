@@ -23,6 +23,8 @@ public enum Direction
 
 public static class PipeMaze
 {
+    // ﻿Input was removed due to the copyright.
+    // Create input.txt file and fill it with data from: https://adventofcode.com/2023/day/10/input
     private const string InputFilePath = @"2023\10\input.txt";
 
     private static readonly char[] PipeSegments = new[]

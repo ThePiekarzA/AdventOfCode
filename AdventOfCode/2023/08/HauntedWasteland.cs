@@ -6,6 +6,8 @@ public static class HauntedWasteland
 {
     private static readonly Regex NodeRegex = new(@"\w{3}");
 
+    // ﻿Input was removed due to the copyright.
+    // Create input.txt file and fill it with data from: https://adventofcode.com/2023/day/8/input
     private const string InputFilePath = @"2023\08\input.txt";
 
     public static int RunPartOne()

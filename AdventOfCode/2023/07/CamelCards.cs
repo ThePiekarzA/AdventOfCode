@@ -2,6 +2,8 @@
 
 public static class CamelCards
 {
+    // ﻿Input was removed due to the copyright.
+    // Create input.txt file and fill it with data from: https://adventofcode.com/2023/day/7/input
     private const string InputFilePath = @"2023\07\input.txt";
 
     public static int RunPartOne()

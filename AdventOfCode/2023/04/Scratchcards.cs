@@ -2,6 +2,8 @@
 
 public static class Scratchcards
 {
+    // ﻿Input was removed due to the copyright.
+    // Create input.txt file and fill it with data from: https://adventofcode.com/2023/day/4/input
     private const string InputFilePath = @"2023\04\input.txt";
 
     public static int RunPartOne()

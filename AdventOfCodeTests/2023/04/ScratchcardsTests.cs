@@ -6,6 +6,8 @@ namespace AdventOfCodeTests._2023._04;
 [TestClass]
 public class ScratchcardsTests
 {
+    // ﻿Input was removed due to the copyright.
+    // Create testInput.txt file and fill it with test data from: https://adventofcode.com/2023/day/4
     private const string TestFilePath = @"2023\04\testInput.txt";
 
     [DataTestMethod]

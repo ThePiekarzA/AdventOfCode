@@ -415,3 +415,6 @@ RunInTheMeantime/
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/dotnetcore,visualstudio
+
+# Input files for AdventOfCode
+*input*.txt

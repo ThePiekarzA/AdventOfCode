@@ -6,6 +6,8 @@ namespace AdventOfCodeTests._2023._09;
 [TestClass]
 public class MirageMaintenanceTests
 {
+    // ﻿Input was removed due to the copyright.
+    // Create testInput.txt file and fill it with test data from: https://adventofcode.com/2023/day/9
     private const string InputFilePath = @"2023\09\testInput.txt";
 
     [DataTestMethod]

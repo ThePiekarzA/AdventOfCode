@@ -6,6 +6,8 @@ namespace AdventOfCodeTests._2023._05;
 [TestClass]
 public class IfYouGiveASeedAFertilizerTests
 {
+    // ﻿Input was removed due to the copyright.
+    // Create testInput.txt file and fill it with test data from: https://adventofcode.com/2023/day/5
     private const string InputFilePath = @"2023\05\testInput.txt";
 
     [TestMethod]

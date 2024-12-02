@@ -6,6 +6,10 @@ namespace AdventOfCodeTests._2023._02;
 [TestClass]
 public class CubeConundrumTests
 {
+    // ﻿Input was removed due to the copyright.
+    // Create testInput.txt file and fill it with test data from: https://adventofcode.com/2023/day/2
+    private const string TestInputFilePath = @"2023\02\testInput.txt";
+
     #region PartOne
 
     [DataTestMethod]
@@ -37,7 +41,7 @@ public class CubeConundrumTests
         var blueCount = 14;
 
         // Act
-        var result = CubeConundrum.SumPossibleGameIds(@"2023\02\testInput.txt", redCount, greenCount, blueCount);
+        var result = CubeConundrum.SumPossibleGameIds(TestInputFilePath, redCount, greenCount, blueCount);
 
         // Assert
         Assert.AreEqual(8, result);
@@ -66,7 +70,7 @@ public class CubeConundrumTests
     public void GetMinimalSetPowerSumTest()
     {
         // Act
-        var result = CubeConundrum.GetMinimalSetPowerSum(@"2023\02\testInput.txt");
+        var result = CubeConundrum.GetMinimalSetPowerSum(TestInputFilePath);
 
         // Assert
         Assert.AreEqual(2286, result);
