@@ -55,9 +55,12 @@
 //var answer = HistorianHysteria.RunPartOne(); // 2375403
 //var answer = HistorianHysteria.RunPartTwo(); // 23082277
 
-using AdventOfCode._2024._02;
-
+//using AdventOfCode._2024._02;
 //var answer = RedNosedReports.RunPartOne(); // 631
-var answer = RedNosedReports.RunPartTwo(); // 665
+//var answer = RedNosedReports.RunPartTwo(); // 665
+
+using AdventOfCode._2024._03;
+//var answer = MullItOver.RunPartOne(); // 187825547
+var answer = MullItOver.RunPartTwo(); // 85508223
 
 Console.WriteLine($"\nThe answer is: {answer}");
