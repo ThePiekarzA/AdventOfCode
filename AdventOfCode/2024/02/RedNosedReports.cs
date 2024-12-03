@@ -72,13 +72,62 @@ public class RedNosedReports
         var safeReportsCount = 0;
         foreach (var report in reports)
         {
-            if (AnalyzeReportWithRisk(report))
+            if (AnalyzeReportWithRiskProperly(report))
             {
                 safeReportsCount++;
             }
         }
         return safeReportsCount;
     }
+
+    public static bool AnalyzeReportWithRiskProperly(IList<int> originalReport)
+    {
+        if (AnalyzeReport(originalReport.ToArray())) 
+            return true;
+
+        var distances = CalculateDistances(originalReport);
+
+        for (var i = 0; i < distances.Length; i++)
+        {
+            if (!ValidateDistance(distances[i]))
+            {
+                if (AnalyzeAlteredReport(originalReport, i)) 
+                    return true;
+            }
+
+            if (i < distances.Length - 1 &&
+                distances[i] * distances[i + 1] < 0)
+            {
+                if (AnalyzeAlteredReport(originalReport, i))
+                    return true;
+                if (AnalyzeAlteredReport(originalReport, i + 1))
+                    return true;
+            }
+        }
+
+        return AnalyzeAlteredReport(originalReport, originalReport.Count - 1);
+    }
+
+    private static bool AnalyzeAlteredReport(IList<int> originalReport, int indexToRemove)
+    {
+        var report = new List<int>(originalReport);
+        report.RemoveAt(indexToRemove);
+        return AnalyzeReport(report.ToArray());
+    }
+
+    private static int[] CalculateDistances(IList<int> report)
+    {
+        var distances = new int[report.Count - 1];
+        distances[0] = report[0] - report[1];
+        for (var i = 1; i < report.Count - 1; i++)
+        {
+            distances[i] = report[i] - report[i + 1];
+        }
+
+        return distances;
+    }
+
+    #region Other working propositions
 
     // Once for a while brute force can save lives...
     public static bool BruteForceAnalysis(IList<int> report)
@@ -90,7 +139,7 @@ public class RedNosedReports
         {
             var reportCopy = new List<int>(report);
             reportCopy.RemoveAt(i);
-            if(AnalyzeReport(reportCopy.ToArray()))
+            if (AnalyzeReport(reportCopy.ToArray()))
                 return true;
         }
 
@@ -112,6 +161,8 @@ public class RedNosedReports
         reportCopy.RemoveAt(0);
         return AnalyzeReport(reportCopy.ToArray());
     }
+
+    #endregion
 
     private static bool AnalyzeReportAndRemoveInvalidLevel(IList<int> report, bool removeNext)
     {
