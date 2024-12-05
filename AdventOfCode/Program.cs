@@ -63,8 +63,12 @@
 //var answer = MullItOver.RunPartOne(); // 187825547
 //var answer = MullItOver.RunPartTwo(); // 85508223
 
-using AdventOfCode._2024._04;
+//using AdventOfCode._2024._04;
 //var answer = CeresSearch.RunPartOne(); // 2654
-var answer = CeresSearch.RunPartTwo(); // 1990
+//var answer = CeresSearch.RunPartTwo(); // 1990
+
+using AdventOfCode._2024._05;
+//var answer = PrintQueue.RunPartOne(); // 4135
+var answer = PrintQueue.RunPartTwo(); // 5285
 
 Console.WriteLine($"\nThe answer is: {answer}");
