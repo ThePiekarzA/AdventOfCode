@@ -67,8 +67,12 @@
 //var answer = CeresSearch.RunPartOne(); // 2654
 //var answer = CeresSearch.RunPartTwo(); // 1990
 
-using AdventOfCode._2024._05;
+//using AdventOfCode._2024._05;
 //var answer = PrintQueue.RunPartOne(); // 4135
-var answer = PrintQueue.RunPartTwo(); // 5285
+//var answer = PrintQueue.RunPartTwo(); // 5285
+
+using AdventOfCode._2024._06;
+//var answer = GuardGallivant.RunPartOne(); // 4663
+var answer = GuardGallivant.RunPartTwo();
 
 Console.WriteLine($"\nThe answer is: {answer}");
