@@ -10,13 +10,15 @@ public class BridgeRepairTests
     // Create testInput.txt file and fill it with test data from: https://adventofcode.com/2024/day/7
     private const string TestFilePath = @"2024\07\testInput.txt";
 
-    [TestMethod]
-    public void SumValidEquationsTest()
+    [DataTestMethod]
+    [DataRow(2, (ulong)3749)]
+    [DataRow(3, (ulong)11387)]
+    public void SumValidEquationsTest(int operatorsCount, ulong expected)
     {
         // Act
-        var result = BridgeRepair.SumValidEquations(TestFilePath);
+        var result = BridgeRepair.SumValidEquations(TestFilePath, operatorsCount);
 
         // Assert
-        Assert.AreEqual((ulong)3749, result);
+        Assert.AreEqual(expected, result);
     }
 }

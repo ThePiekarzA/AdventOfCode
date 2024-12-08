@@ -1,11 +1,12 @@
-﻿using System.Collections;
+﻿using AdventOfCode.Common;
 
 namespace AdventOfCode._2024._07;
 
 public enum Operator
 {
     Multiply,
-    Sum
+    Sum,
+    Concatenate
 };
 
 public class BridgeRepair
@@ -16,17 +17,22 @@ public class BridgeRepair
 
     public static ulong RunPartOne()
     {
-        return SumValidEquations(InputFilePath);
+        return SumValidEquations(InputFilePath, 2);
     }
 
-    public static ulong SumValidEquations(string inputFilePath)
+    public static ulong RunPartTwo()
+    {
+        return SumValidEquations(InputFilePath, 3);
+    }
+
+    public static ulong SumValidEquations(string inputFilePath, int operatorsCount)
     {
         var equations = ParseInput(inputFilePath);
 
         ulong validEquationsSum = 0;
         foreach (var equation in equations)
         {
-            if (AnalyzeEquation(equation))
+            if (AnalyzeEquation(equation, operatorsCount))
             {
                 validEquationsSum += equation.TestValue;
             }
@@ -34,20 +40,28 @@ public class BridgeRepair
         return validEquationsSum;
     }
 
-    private static bool AnalyzeEquation(Equation equation)
+    private static bool AnalyzeEquation(Equation equation, int operatorsCount)
     {
         var numbers = equation.Numbers;
-        foreach (var combination in GetAllCombinations(numbers.Count -1))
+        foreach (var combination in Combinations.PermutationsWithRepetitions(numbers.Count -1, operatorsCount))
         {
             var i = 0;
             var result = numbers[i];
-            foreach (var @operator in combination)
+            foreach (Operator @operator in combination)
             {
                 i++;
-                if (@operator == Operator.Multiply)
-                    result *= numbers[i];
-                else
-                    result += numbers[i];
+                switch (@operator)
+                {
+                    case Operator.Multiply:
+                        result *= numbers[i];
+                        break;
+                    case Operator.Sum:
+                        result += numbers[i];
+                        break;
+                    case Operator.Concatenate:
+                        result = ulong.Parse($"{result}{numbers[i]}");
+                        break;
+                }
             }
 
             if (result == equation.TestValue)
@@ -57,25 +71,6 @@ public class BridgeRepair
         }
 
         return false;
-    }
-
-    private static IEnumerable<Operator[]> GetAllCombinations(int places)
-    {
-        var combinationsCount = Math.Pow(2, places);
-        var combination = new Operator[places];
-
-        for (int i = 0; i < combinationsCount; i++)
-        {
-            //var bitRepresentation = Convert.ToString((long)i, 2);
-            var bitArray = new BitArray([i]);
-            //bitArray.CopyTo(boolArray, 0);
-            for (var j = 0; j < places; j++)
-            {
-                combination[j] = bitArray[j] == false ? Operator.Multiply : Operator.Sum;
-            }
-
-            yield return combination;
-        }
     }
 
     private static List<Equation> ParseInput(string inputFilePath)
