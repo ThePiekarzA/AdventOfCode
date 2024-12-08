@@ -71,8 +71,11 @@
 //var answer = PrintQueue.RunPartOne(); // 4135
 //var answer = PrintQueue.RunPartTwo(); // 5285
 
-using AdventOfCode._2024._06;
+//using AdventOfCode._2024._06;
 //var answer = GuardGallivant.RunPartOne(); // 4663
-var answer = GuardGallivant.RunPartTwo();
+//var answer = GuardGallivant.RunPartTwo(); // TODO: Check other noted idea for solving this nightmare 
+
+using AdventOfCode._2024._07;
+var answer = BridgeRepair.RunPartOne();
 
 Console.WriteLine($"\nThe answer is: {answer}");

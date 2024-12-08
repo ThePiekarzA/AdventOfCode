@@ -18,8 +18,6 @@ public class GuardGallivant
     // Create input.txt file and fill it with data from: https://adventofcode.com/2024/day/6/input
     private const string InputFilePath = @"2024\06\input.txt";
 
-    
-
     #region Part One
     
     public static int RunPartOne()
