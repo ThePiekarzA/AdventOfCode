@@ -1,4 +1,5 @@
 ﻿using System.Drawing;
+using AdventOfCode.Common;
 
 namespace AdventOfCode._2024._08;
 
@@ -198,15 +199,9 @@ public class ResonantCollinearity
 
     private static IEnumerable<Antenna[]> GetAllCombinations(Antenna[] sameFrequencyAntennas)
     {
-        var combination = new Antenna[2];
-        for (var i = 0; i < sameFrequencyAntennas.Length; i++)
+        foreach (var combination in Combinations.GetCombinations(sameFrequencyAntennas.Length))
         {
-            combination[0] = sameFrequencyAntennas[i];
-            for (var j = i + 1; j < sameFrequencyAntennas.Length; j++)
-            {
-                combination[1] = sameFrequencyAntennas[j];
-                yield return combination;
-            }
+            yield return combination.Select(e => sameFrequencyAntennas[e]).ToArray();
         }
     }
 

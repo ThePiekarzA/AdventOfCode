@@ -43,7 +43,7 @@ public class BridgeRepair
     private static bool AnalyzeEquation(Equation equation, int operatorsCount)
     {
         var numbers = equation.Numbers;
-        foreach (var combination in Combinations.PermutationsWithRepetitions(numbers.Count -1, operatorsCount))
+        foreach (var combination in Combinations.GetPermutationsWithRepetitions(numbers.Count -1, operatorsCount))
         {
             var i = 0;
             var result = numbers[i];
