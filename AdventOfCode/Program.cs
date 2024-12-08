@@ -75,7 +75,11 @@
 //var answer = GuardGallivant.RunPartOne(); // 4663
 //var answer = GuardGallivant.RunPartTwo(); // TODO: Check other noted idea for solving this nightmare 
 
-using AdventOfCode._2024._07;
-var answer = BridgeRepair.RunPartOne();
+//using AdventOfCode._2024._07;
+//var answer = BridgeRepair.RunPartOne();
+
+using AdventOfCode._2024._08;
+//var answer = ResonantCollinearity.RunPartOne(); // 303
+var answer = ResonantCollinearity.RunPartTwo();
 
 Console.WriteLine($"\nThe answer is: {answer}");
