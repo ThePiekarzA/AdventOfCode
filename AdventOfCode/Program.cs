@@ -79,8 +79,12 @@
 //var answer = BridgeRepair.RunPartOne(); // 2654749936343
 //var answer = BridgeRepair.RunPartTwo(); // 124060392153684
 
-using AdventOfCode._2024._08;
+//using AdventOfCode._2024._08;
 //var answer = ResonantCollinearity.RunPartOne(); // 303
-var answer = ResonantCollinearity.RunPartTwo(); // 1045
+//var answer = ResonantCollinearity.RunPartTwo(); // 1045
+
+using AdventOfCode._2024._09;
+//var answer = DiskFragmenter.RunPartOne(); // 6299243228569
+var answer = DiskFragmenter.RunPartTwo(); // 6326952672104
 
 Console.WriteLine($"\nThe answer is: {answer}");
