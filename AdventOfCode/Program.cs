@@ -51,6 +51,8 @@
 //var answer = HotSprings.RunPartOne(); // 7460
 #endregion
 
+#region 2024
+
 //using AdventOfCode._2024._01;
 //var answer = HistorianHysteria.RunPartOne(); // 2375403
 //var answer = HistorianHysteria.RunPartTwo(); // 23082277
@@ -83,8 +85,15 @@
 //var answer = ResonantCollinearity.RunPartOne(); // 303
 //var answer = ResonantCollinearity.RunPartTwo(); // 1045
 
-using AdventOfCode._2024._09;
+//using AdventOfCode._2024._09;
 //var answer = DiskFragmenter.RunPartOne(); // 6299243228569
-var answer = DiskFragmenter.RunPartTwo(); // 6326952672104
+//var answer = DiskFragmenter.RunPartTwo(); // 6326952672104
+
+#endregion
+
+using AdventOfCode._2025._01;
+
+//var answer = SecretEntrance.RunPartOne(); // 1021
+var answer = SecretEntrance.RunPartTwo(); // 5933
 
 Console.WriteLine($"\nThe answer is: {answer}");

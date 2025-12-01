@@ -1,6 +1,4 @@
-﻿using AdventOfCode._2024._08;
-
-namespace AdventOfCode.Common;
+﻿namespace AdventOfCode.Common;
 
 public class Combinations
 {
