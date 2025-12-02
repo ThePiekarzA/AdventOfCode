@@ -97,6 +97,6 @@
 
 using AdventOfCode._2025._02;
 //var answer = GiftShop.RunPartOne(); // 26255179562
-var answer = GiftShop.RunPartTwo();
+var answer = GiftShop.RunPartTwo(); // 31680313976
 
 Console.WriteLine($"\nThe answer is: {answer}");
