@@ -91,9 +91,12 @@
 
 #endregion
 
-using AdventOfCode._2025._01;
-
+//using AdventOfCode._2025._01;
 //var answer = SecretEntrance.RunPartOne(); // 1021
-var answer = SecretEntrance.RunPartTwo(); // 5933
+//var answer = SecretEntrance.RunPartTwo(); // 5933
+
+using AdventOfCode._2025._02;
+//var answer = GiftShop.RunPartOne(); // 26255179562
+var answer = GiftShop.RunPartTwo();
 
 Console.WriteLine($"\nThe answer is: {answer}");
