@@ -95,8 +95,12 @@
 //var answer = SecretEntrance.RunPartOne(); // 1021
 //var answer = SecretEntrance.RunPartTwo(); // 5933
 
-using AdventOfCode._2025._02;
+//using AdventOfCode._2025._02;
 //var answer = GiftShop.RunPartOne(); // 26255179562
-var answer = GiftShop.RunPartTwo(); // 31680313976
+//var answer = GiftShop.RunPartTwo(); // 31680313976
+
+using AdventOfCode._2025._03;
+//var answer = Lobby.RunPartOne(); // 16858
+var answer = Lobby.RunPartTwo();
 
 Console.WriteLine($"\nThe answer is: {answer}");
