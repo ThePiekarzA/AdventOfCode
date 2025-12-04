@@ -99,8 +99,12 @@
 //var answer = GiftShop.RunPartOne(); // 26255179562
 //var answer = GiftShop.RunPartTwo(); // 31680313976
 
-using AdventOfCode._2025._03;
+//using AdventOfCode._2025._03;
 //var answer = Lobby.RunPartOne(); // 16858
-var answer = Lobby.RunPartTwo();
+//var answer = Lobby.RunPartTwo(); // 167549941654721
+
+using AdventOfCode._2025._04;
+//var answer = PrintingDepartment.RunPartOne(); // 1508
+var answer = PrintingDepartment.RunPartTwo(); // 
 
 Console.WriteLine($"\nThe answer is: {answer}");
