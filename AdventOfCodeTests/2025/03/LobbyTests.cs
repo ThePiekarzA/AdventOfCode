@@ -6,7 +6,7 @@ namespace AdventOfCodeTests._2025._03;
 [TestClass]
 public class LobbyTests
 {
-    private const string TestFile1Path = @"2025\03\testInput.txt";
+    private const string TestFilePath = @"2025\03\testInput.txt";
 
     [DataTestMethod]
     [DataRow(2, (ulong)357)]
@@ -14,7 +14,7 @@ public class LobbyTests
     public void FindMaxJoltageTest(int length, ulong expected)
     {
         // Act
-        var result = Lobby.FindMaxJoltage(TestFile1Path, length);
+        var result = Lobby.FindMaxJoltage(TestFilePath, length);
 
         // Assert
         Assert.AreEqual(expected, result);

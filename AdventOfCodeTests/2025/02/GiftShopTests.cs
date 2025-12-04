@@ -6,13 +6,13 @@ namespace AdventOfCodeTests._2025._02;
 [TestClass]
 public class GiftShopTests
 {
-    private const string TestFile1Path = @"2025\02\testInput1.txt";
+    private const string TestFilePath = @"2025\02\testInput.txt";
 
     [TestMethod]
     public void FindInvalidIdsTest()
     {
         // Act
-        var result = GiftShop.FindInvalidIds(TestFile1Path);
+        var result = GiftShop.FindInvalidIds(TestFilePath);
 
         // Assert
         Assert.AreEqual((ulong)1227775554, result);
@@ -22,7 +22,7 @@ public class GiftShopTests
     public void FindInvalidIdsMultiSequenceTest()
     {
         // Act
-        var result = GiftShop.FindInvalidIdsMultiSequence(TestFile1Path);
+        var result = GiftShop.FindInvalidIdsMultiSequence(TestFilePath);
 
         // Assert
         Assert.AreEqual((ulong)4174379265, result);
