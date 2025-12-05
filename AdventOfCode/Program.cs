@@ -103,8 +103,12 @@
 //var answer = Lobby.RunPartOne(); // 16858
 //var answer = Lobby.RunPartTwo(); // 167549941654721
 
-using AdventOfCode._2025._04;
+//using AdventOfCode._2025._04;
 //var answer = PrintingDepartment.RunPartOne(); // 1508
-var answer = PrintingDepartment.RunPartTwo(); // 
+//var answer = PrintingDepartment.RunPartTwo(); 
+
+using AdventOfCode._2025._05;
+//var answer = Cafeteria.RunPartOne();
+var answer = Cafeteria.RunPartTwo();
 
 Console.WriteLine($"\nThe answer is: {answer}");
