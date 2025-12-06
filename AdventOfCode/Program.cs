@@ -107,8 +107,12 @@
 //var answer = PrintingDepartment.RunPartOne();
 //var answer = PrintingDepartment.RunPartTwo();
 
-using AdventOfCode._2025._05;
+//using AdventOfCode._2025._05;
 //var answer = Cafeteria.RunPartOne();
-var answer = Cafeteria.RunPartTwo();
+//var answer = Cafeteria.RunPartTwo();
+
+using AdventOfCode._2025._06;
+//var answer = TrashCompactor.RunPartOne();
+var answer = TrashCompactor.RunPartTwo();
 
 Console.WriteLine($"\nThe answer is: {answer}");
