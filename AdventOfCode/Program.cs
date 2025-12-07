@@ -111,8 +111,13 @@
 //var answer = Cafeteria.RunPartOne();
 //var answer = Cafeteria.RunPartTwo();
 
-using AdventOfCode._2025._06;
+//using AdventOfCode._2025._06;
 //var answer = TrashCompactor.RunPartOne();
-var answer = TrashCompactor.RunPartTwo();
+//var answer = TrashCompactor.RunPartTwo();
+
+using AdventOfCode._2025._07;
+
+//var answer = Laboratories.RunPartOne();
+var answer = Laboratories.RunPartTwo();
 
 Console.WriteLine($"\nThe answer is: {answer}");
